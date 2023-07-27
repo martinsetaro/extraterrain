@@ -1,5 +1,6 @@
 import './globals.css';
 import Header from '@/components/Header';
+import Footer from '@/components/Footer';
 
 
 
@@ -20,6 +21,7 @@ export default function RootLayout({ children }) {
        <link rel="icon" href="/logo_pestaña.ico" sizes="any" />
         <Header/>
         {children}
+        <Footer/>
         </body>
     </html>
   )
