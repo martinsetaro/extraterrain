@@ -6,6 +6,7 @@ import movilweb from '../../public/img/movilepage.webp'
 import AOS from 'aos';
 import 'aos/dist/aos.css'
 
+
 export default function FirstHome() {
 
     const [load,setLoad] = useState(false)
@@ -35,8 +36,8 @@ export default function FirstHome() {
 
         <div className='flex justify-center items-center w-full'>
             {load ? <Image data-aos="flip-left" data-aos-easing="linear"
-            data-aos-duration="500" src={movilweb} alt="movilweb" width={700} height={800}/> : <Image data-aos="flip-left" data-aos-easing="linear"
-            data-aos-duration="500" src={navegationweb} alt="movilweb" width={700} height={800}/> }
+            data-aos-duration="500" src={movilweb} alt="movilweb" width={500} height={600}/> : <Image data-aos="flip-left" data-aos-easing="linear"
+            data-aos-duration="500" src={navegationweb} alt="movilweb" width={500} height={600}/> }
         </div>
         {!load ? <div className='w-full flex justify-center item-center flex-col'>
             <h2 className='font-changa text-esmeralda' data-aos="fade-down">Your personal homepage</h2>
