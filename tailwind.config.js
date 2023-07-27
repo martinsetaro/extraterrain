@@ -23,6 +23,7 @@ module.exports = {
         'notosemibold' :['notosemibold'],
         'notorlight' :['notorlight'],
         'notomedium' :['notomedium'],
+        'changa':['changa']
       }
     },
   },

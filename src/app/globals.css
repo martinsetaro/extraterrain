@@ -26,6 +26,10 @@
         src: url('../assets/fonts/Notosemibold.ttf');
     }
 }
+@font-face {
+    font-family: changa;
+    src: url('../assets/fonts/changaregular.ttf');
+}
 
 h1{
     font-size: 3rem;

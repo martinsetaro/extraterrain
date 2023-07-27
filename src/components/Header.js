@@ -9,7 +9,7 @@ export default function Header() {
       <div className='w-1/2 flex items-center justify-start p-4'>
         <Image src={logo} alt="logo" width={90} height={90}/>
       </div>
-      <nav className='w-1/2 text-white flex gap-6 font-notoregular items-center justify-end pr-6'> 
+      <nav className='w-1/2 text-white flex gap-6 font-notoregular items-center justify-end pr-10'> 
         <Link className="hover:text-esmeralda " href="#">Home</Link>
         <Link className="hover:text-esmeralda " href="#">About Us</Link>
         <Link className="hover:text-esmeralda " href="#">Projects</Link>
